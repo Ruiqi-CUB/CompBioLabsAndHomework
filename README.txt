@@ -1,1 +1,1 @@
-This repository serve as a 
+Ruiqi’s repository for computational biology course	 
