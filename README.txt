@@ -1,1 +1,1 @@
-Ruiqi’s repository for computational biology course	 
+This is Ruiqi’s repository for computational biology course.	 
