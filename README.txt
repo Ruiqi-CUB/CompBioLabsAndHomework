@@ -1,1 +1,0 @@
-This is Ruiqi’s repository for computational biology course.	 
