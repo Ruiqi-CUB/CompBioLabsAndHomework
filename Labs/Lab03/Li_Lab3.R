@@ -25,7 +25,8 @@ LennyIV <- Lenny[4]
 Rankdata <- cbind(Self, Penny, Jenny, Lenny, Stewie)
 str(PennyIV)
 str(Penny)
-str(Rankdata)#PennyIV has one number, Penny has three numbers, Rankdata has seven rows and five columns.
+str(Rankdata)
+#PennyIV has one number, Penny has seven numbers, Rankdata has seven rows and five columns.
 
 #Lab step #12: Make a “data frame” using the 5 vectors of rankings. 
 Rankdataframe <- as.data.frame(Rankdata)
@@ -33,11 +34,16 @@ Rankdataframe2 <- data.frame(Self, Penny, Jenny, Lenny, Stewie)
 
 ##Lab step #13:
 dim(Rankdataframe)
-dim(Rankdata)# Both of them have 5 columns and 7 rows.
-str(Rankdataframe)#  The dataframe includes 5 variables, each of which has 7 obervations and all of them are numbers. 
-str(Rankdata) #The matrix is a two-way generalization of a vector. 
-typeof(Rankdataframe) #Data frame is collection (list) of items. 
-typeof(Rankdata) # The matrix is basically some numbers. 
+dim(Rankdata)
+# Both of them have 5 columns and 7 rows.
+str(Rankdataframe)
+#  The dataframe includes 5 variables, each of which has 7 obervations and all of them are numbers. 
+str(Rankdata) 
+#The matrix is a two-way generalization of a vector. 
+typeof(Rankdataframe)
+#Data frame is collection (list) of items. 
+typeof(Rankdata) 
+# The matrix is basically some numbers. 
 Rankdata == Rankdataframe # The numbers from matrix and dataframe are equal to each other.
 
 ##Lab step #14: Make a vector of the Episode names as Roman numerals
