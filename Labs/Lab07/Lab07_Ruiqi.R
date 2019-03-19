@@ -20,13 +20,6 @@ triArea(base = 10, height = 9)
 # Function definition:
 # Wirte a function that the absolute value of a number
 myAbs <- function(x) {
-  if (length(x)==1) { #if x is a number
-    if (x>=0) {
-    return (x)
-    } else {
-    return(-x)
-    }
-  } else { #if x is a vector
     for (i in 1:length(x)) {
       if(x[i] >= 0) {
         next
@@ -35,7 +28,6 @@ myAbs <- function(x) {
       }
     }
     return (x)
-  }
 }
 
 # Demonstration of usage: 
@@ -117,20 +109,32 @@ myFibo3b <- function (a,n) {
   # check the input
   if ((a==1|a==0) && (n%%1==0 && n > 0) ){
     num <- rep (0,n) # create a vector storing data
-    if (a==0) { # start with 0
-      num[1]<-0
-      num[2]<-1
-      for(i in 3:n) {
-        num[i] <- num[i-1] + num[i-2]
-      }
-    } else { # start with 1
-      num[1]<-1
-      num[2]<-1
-      for(i in 3:n) {
-        num[i] <- num[i-1] + num[i-2]
+    if (n==1) {
+      return(a)
+    } else {
+      # when n=2
+      if (n==2) {
+        b <- a+1
+        num <- c(a,b)
+        return(num)
+      } else {
+        num <- rep (0,n) # create a vector storing data
+        if (a==0) { # start with 0
+          num[1]<-0
+          num[2]<-1
+          for(i in 3:n) {
+            num[i] <- num[i-1] + num[i-2]
+          }
+        } else { # start with 1
+          num[1]<-1
+          num[2]<-1
+          for(i in 3:n) {
+            num[i] <- num[i-1] + num[i-2]
+          }
+        }
+        return(num)
       }
     }
-    return(num)
   } else {
     return ("Please check your inputs")
   }
