@@ -12,11 +12,11 @@ where n[t] is the abundance of the population at time t, n[t – 1] is the abund
 1. Function input: You need to input `r` (the intrinsic growth rate), `K` (the carrying capacity), and the initial population size `a` as its arguments.
 2. How the function works:
 ```
-growthModel <- function(r,K,a) { #Turn the logistic growth model code into a function
-    Abundance <<- rep(0,12) #Creat a vector to store abundance data
+growthModel <- function(r,K,a,n) { #Turn the logistic growth model code into a function
+    Abundance <<- rep(0,n) #Creat a vector to store abundance data
     Abundance[1] <<- a # Set the initial population size
-    Generation <<- seq (1,12) # Creat a vector to store time spots
-    for (i in 2:12) { #Use loop to calculate population sizes
+    Generation <<- seq (1,n) # Creat a vector to store time spots
+    for (i in 2:n) { #Use loop to calculate population sizes
         Abundance[i] <<- Abundance[i-1] + (r * Abundance[i-1] * (K - Abundance[i-1])/K)
     }
     Data <<- data.frame(Generation, Abundance)
@@ -34,6 +34,6 @@ write.csv(Data,file="growthModelData.csv") # Wirite data to a file
 * We will have a variable called 'Data' that have generation and abundance data
 * We will also save a plot of generation and abundance in the current working directory
 
-4. Example: input `r`=0.5, `K`=10000, `a`=2500, and display the plot here
+4. Example: input `r`=0.5, `K`=10000, `a`=2500, `n`=12 and display the plot here
 ![Example output plot](growthModelPlot.png)
 
