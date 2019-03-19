@@ -52,20 +52,22 @@ r <- 0.2 		# growth rate of prey
 m <- 0.05 		# mortality rate of predators
 k <- 0.1 		# conversion constant of prey into predators
 # 2. reate a "time" vector, and make two additional vectors to store results, one for 'n', the other for 'p'
-t <- seq (1:1000)
-n <- rep(0, 1000)
+t <- seq (1:totalGenerations)
+n <- rep(0, totalGenerations)
 n[1] <- initPrey
-p <- rep(0, 1000)
+p <- rep(0, totalGenerations)
 p[1] <- initPred
 # 3. Calculate n[t] and p[t]
-for (i in 2:1000) {
+for (i in 2:totalGenerations) {
   n[i] <- n[i-1] + (r * n[i-1]-(a * n[i-1] * p[i-1]) )
   p[i] <- p[i-1] + (k * a * n[i-1] * p[i-1] -(m * p[i-1]) )
 } 
 # 4.Check for negative numbers each generation. 
+p <- rep(0, totalGenerations)
+n <- rep(0, totalGenerations)
 n[1] <- initPrey
 p[1] <- initPred
-for (i in 2:1000) {
+for (i in 2:totalGenerations) {
   if( n[i-1] > 0) { # If the number of prey is more than or equal to zero, do the calculation
     n[i] <- n[i-1] + (r * n[i-1]-(a * n[i-1] * p[i-1]) )
     p[i] <- p[i-1] + (k * a * n[i-1] * p[i-1] -(m * p[i-1]) )
@@ -84,16 +86,16 @@ write.csv(x = myResults, file = "PredPreyResults.csv")
 
 #7.Part III 
 initPreyVec <- seq(from = 10, to = 100, by = 10)
-initPreyFrame <- rep(initPreyVec, each = 1000) # make a vector storing initial prey abundance for all the data
-t <- seq (1:1000)
+initPreyFrame <- rep(initPreyVec, each = totalGeneration) # make a vector storing initial prey abundance for all the data
+t <- seq (1:totalGeneration)
 tFrame <- rep(t, times=10) # make a vector storing all the time points
-n <- rep(0, 10000) # make a vector storing prey abundance 
+n <- rep(0, totalGeneration) # make a vector storing prey abundance 
 n[1] <- initPreyVec [1]
-p <- rep(0, 10000)  #make a vector storing predator abundance 
+p <- rep(0, totalGeneration)  #make a vector storing predator abundance 
 p[1] <- initPred
-
+totalGeneration<- 10000
 b <- 1
-for (i in 2:10000) {
+for (i in 2:totalGeneration) {
   if(i %% 1000 ==1 ) { #start over from intial prey abundance when n%%==1
     b <- b + 1 
     n[i] <- initPreyVec [b] # assign initial prey abundance to n[i]
