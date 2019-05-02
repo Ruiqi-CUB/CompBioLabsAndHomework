@@ -32,19 +32,27 @@ Based on the data availability and quality, I finally pick up four physiological
 As shown in Figure. 1, it is obvious that there is no relationship between symbiotic density and growth rate. Figure. 2 shows that there is no relationship between between symbiotic density and calcification rate either. There are two outliers in those two figures: a species with high symbiotic density but normal calcification/growth rate and a species with normal symbiotic density but extraordinary calcification/growth rate. Overall, the symbiotic density does not effect on the selected physiological trait. However, those rates are highly effected by the environment factors. Those factors are not controlled during the measurement for those species. As a result, we cannot conclude if the symbiotic density effects growth/calcification rate or not. It is possible that the hosts are occupied by symbionts more than they need and the photosynthetic activities are restricted by environment factors such as light availability.
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure1.png)
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure2.png)
+
 As for the symbiotic diversity, there is no apparent pattern found in this study (Figure 3, Figure 4). However, it seems that hosts with the least and most number of symbiotic subclades tend to have higher productivity. There are some possible explanations: First, hosts with only one kind of symbiont might be able to establish a stable relationship with its symbiont. The stability of the photosymbiotic relationship might result in the higher growth rate. Second, hosts with higher numbers of symbionts might have a strong ability to uptake a variety of symbionts, which also favors their growth.
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure3.png)
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure4.png)
+
 The presence of symbionts does not influence the growth rate of corals either. As shown in Figure 5, there is no significant difference between those with and without zooxanthellae. The average of non-zooxanthellate coral growth rate is even higher than zooxanthellate corals’. This might because of the calcification consuming energy in zooxanthellate corals.
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure5.png)
+
 Overall, my project did not find any pattern of how symbionts’ presence, density, diversity influent on hosts’ physiological status. There are some trends like non-zooxanthellate coral have higher average growth rate but more high quality data is needed to draw a concise conclusion.
 
 ###Reference
 Ayre, David J., and Terence P. Hughes. 2004. “Climate Change, Genotypic Diversity and Gene Flow in Reef-Building Corals.” Ecology Letters 7 (4): 273–78. [https://doi.org/10.1111/j.1461-0248.2004.00585.x](https://doi.org/10.1111/j.1461-0248.2004.00585.x).
+
 Darling, K. F., D. Kroon, C. M. Wade, and A. J. Leigh Brown. 1996. “Molecular Phylogeny of the Planktic Foraminifera.” The Journal of Foraminiferal Research 26 (4): 324–30. [https://doi.org/10.2113/gsjfr.26.4.324](https://doi.org/10.2113/gsjfr.26.4.324).
+
 Kirkendale, Lisa. 2009. “Their Day in the Sun: Molecular Phylogenetics and Origin of Photosymbiosis in the ‘other’ Group of Photosymbiotic Marine Bivalves (Cardiidae: Fraginae).” Biological Journal of the Linnean Society 97 (2): 448–65. [https://doi.org/10.1111/j.1095-8312.2009.01215.x](https://doi.org/10.1111/j.1095-8312.2009.01215.x).
+
 Madin, Joshua S., Kristen D. Anderson, Magnus Heide Andreasen, Tom C.L. Bridge, Stephen D. Cairns, Sean R. Connolly, Emily S. Darling, et al. 2016. “The Coral Trait Database, a Curated Database of Trait Information for Coral Species from the Global Oceans.” Scientific Data 3: 170174. [https://doi.org/10.1038/sdata.2016.17](https://doi.org/10.1038/sdata.2016.17).
+
 Roth, Melissa S. 2014. “The Engine of the Reef: Photobiology of the Coral-Algal Symbiosis.” Frontiers in Microbiology 5 (AUG): 1–22. [https://doi.org/10.3389/fmicb.2014.00422.](https://doi.org/10.3389/fmicb.2014.00422).
+
 Steindler, L, S Beer, and M Ilan. 2002. “Photosymbiosis in Intertidal and Subtidal Tropical Sponges.” Biochemistry 33: 1–11.
 
 
