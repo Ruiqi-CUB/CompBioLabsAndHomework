@@ -45,7 +45,7 @@ The presence of symbionts does not influence the growth rate of corals either. A
 
 Overall, my project did not find any pattern of how symbionts’ presence, density, diversity influent on hosts’ physiological status. There are some trends like non-zooxanthellate coral have higher average growth rate but more high quality data is needed to draw a concise conclusion.
 
-###Reference
+### Reference
 
 Ayre, David J., and Terence P. Hughes. 2004. “Climate Change, Genotypic Diversity and Gene Flow in Reef-Building Corals.” Ecology Letters 7 (4): 273–78. [https://doi.org/10.1111/j.1461-0248.2004.00585.x](https://doi.org/10.1111/j.1461-0248.2004.00585.x).
 
