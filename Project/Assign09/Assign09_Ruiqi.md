@@ -1,4 +1,4 @@
-# The role of Photosymbiosis in Coral Physiology
+# The Role of Photosymbiosis in Coral Physiology
 
 ### Biological question
 Photosymbiosis is a mutualistic relationship between a host organism and photosynthetic microbes or algae. My driven question for this project is how the symbiotic status effect on the hosts’ physiology. In particular, I will look for how symbionts’ presence, density, diversity influent on hosts’ growth rate, calcification rate and gross photosynthetic rate.
