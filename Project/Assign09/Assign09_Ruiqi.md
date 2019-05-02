@@ -30,14 +30,17 @@ Third, I compared some physiological traits for those with and without symbionts
 Based on the data availability and quality, I finally pick up four physiological traits, including growth rate and calcification rate and three photosymbiotic traits, including chlorophyll a concentration, Symbiodinium subclade and Symbiodinium density. As for the biogeographic analysis, there are some overlaps of species in different geographic regions and the trait data are not distinguished for the same species in different regions. As a result, biogeographic analysis cannot be done based on the information in the database.
 
 As shown in Figure. 1, it is obvious that there is no relationship between symbiotic density and growth rate. Figure. 2 shows that there is no relationship between between symbiotic density and calcification rate either. There are two outliers in those two figures: a species with high symbiotic density but normal calcification/growth rate and a species with normal symbiotic density but extraordinary calcification/growth rate. Overall, the symbiotic density does not effect on the selected physiological trait. However, those rates are highly effected by the environment factors. Those factors are not controlled during the measurement for those species. As a result, we cannot conclude if the symbiotic density effects growth/calcification rate or not. It is possible that the hosts are occupied by symbionts more than they need and the photosynthetic activities are restricted by environment factors such as light availability.
+
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure1.png)
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure2.png)
 
 As for the symbiotic diversity, there is no apparent pattern found in this study (Figure 3, Figure 4). However, it seems that hosts with the least and most number of symbiotic subclades tend to have higher productivity. There are some possible explanations: First, hosts with only one kind of symbiont might be able to establish a stable relationship with its symbiont. The stability of the photosymbiotic relationship might result in the higher growth rate. Second, hosts with higher numbers of symbionts might have a strong ability to uptake a variety of symbionts, which also favors their growth.
+
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure3.png)
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure4.png)
 
 The presence of symbionts does not influence the growth rate of corals either. As shown in Figure 5, there is no significant difference between those with and without zooxanthellae. The average of non-zooxanthellate coral growth rate is even higher than zooxanthellate corals’. This might because of the calcification consuming energy in zooxanthellate corals.
+
 ![](https://github.com/Ruiqi-CUB/CompBioLabsAndHomework/blob/master/Project/Assign09/Assign09_Figure5.png)
 
 Overall, my project did not find any pattern of how symbionts’ presence, density, diversity influent on hosts’ physiological status. There are some trends like non-zooxanthellate coral have higher average growth rate but more high quality data is needed to draw a concise conclusion.
